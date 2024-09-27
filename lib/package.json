@@ -1,0 +1,18 @@
+{
+  "name": "farlandslib",
+  "version": "1.0.0",
+  "description": "Utility library for the Farlands Chat service",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest"
+  },
+  "author": "Faissal Bensefia",
+  "license": "GPLv3",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "timekeeper": "^2.3.1"
+  }
+}

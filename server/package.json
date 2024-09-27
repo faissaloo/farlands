@@ -1,0 +1,24 @@
+{
+  "name": "splittingmessenger",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest"
+  },
+  "author": "Faissal Bensefia",
+  "license": "GPLv3",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "farlandslib": "file:../lib",
+    "jest": "^29.7.0",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "lodash": "^4.17.21",
+    "timekeeper": "^2.3.1",
+    "uuid": "^10.0.0"
+  }
+}
